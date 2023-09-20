@@ -5,13 +5,13 @@ A diagram of the state space is shown below. Each grey circle is a state, labell
 Lines between states are the transitions and they are labelled with their step cost. 
 Each state also has a number in brackets: this is the value of the heuristic function h(n) for that state.
 
-![alt text](images/22 Diagram.png "Obstacles")
+<img alt="alt text" src="images/22 Diagram.png" title="Obstacles"/>
 
-The tables below show the heuristic value of each state, and the step cost for each connection between two states. Connections between two states can be navigated in both directions (with the same step cost). 
+The tables below show the heuristic value of each state, and the step cost for each connection between two states. Connections between two states can be navigated in both directions (with the same step cost).
 
-![alt text](images/States and Heuristics Values.png "Obstacles")
+<img alt="alt text" src="images/States and Heuristics Values.png" title="Obstacles"/>
 
-![alt text](images/States and Step Costs.png "Obstacles")
+<img alt="alt text" src="images/States and Step Costs.png" title="Obstacles"/>
 
 You might have noticed something odd about the distances. For example, if the robot were to travel 
 in a straight line from F to G, the distance should be less than 3 according to Pythagoras’ theorem. 
